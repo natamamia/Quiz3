@@ -20,19 +20,15 @@ using Quiz3Ex1.StudentInfo;
 using Quiz3Ex1.TeacherInfo;
 using Quiz3Ex1.SubjectInfo;
 using Quiz3Ex1.PersonInfo;
+using System;
 
 List<string> FirstName = new List<string>();
 List<string> LastName = new List<string>();
-List<int> PersonalNumber = new List<int>();
+List<string> PersonalNumber = new List<string>();
 List<string> SubjectMajor = new List<string>();
-List<int> Term = new List<int>();
-
+List<string> Term = new List<string>();
 
 Student s = new Student("George", "Smith", "01010101010", "csharp", "3");
 Teacher t = new Teacher("David", "Brown", "csharp");
 Subject s1 = new Subject("csharp", "java", "75", "15");
-Person p = new Person();
 
-Console.WriteLine(s.ToString());
-Console.WriteLine(t.ToString());
-Console.WriteLine(s1.ToString());
